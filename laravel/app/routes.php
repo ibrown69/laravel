@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('users', function()
+Route::get('/', function()
 {
-    return View::make('users');
+	return View::make('hello');
 });
