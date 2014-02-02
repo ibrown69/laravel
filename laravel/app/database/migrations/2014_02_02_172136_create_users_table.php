@@ -18,7 +18,7 @@ class CreateUsersTable extends Migration {
         $table->string('firstname');
         $table->string('surname');
         $table->string('dob');
-        $table->string('group');
+        $table->int('group');
         $table->timestamps();
     }); //
 	}
