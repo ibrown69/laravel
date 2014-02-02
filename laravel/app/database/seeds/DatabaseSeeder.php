@@ -26,10 +26,12 @@ class UserTableSeeder extends Seeder {
 
         User::create(array('id' => '1',
         				   'email' => 'gillian.brown@ankhsystems.co.uk',
-        				   'name' => 'Gillian Brown'));
+        				   'firstname' => 'Gillian',
+        				   'surname' => 'Brown'));
         User::create(array('id' => '2',
         				   'email' => 'ian.brown@ankhsystems.co.uk',
-        				   'name' => 'Ian Brown'));				   
+        				   'firstname' => 'Ian',
+        				   'surname' => 'Brown'));			   
     }
     
 }
